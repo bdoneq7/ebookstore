@@ -1,0 +1,141 @@
+.aboutbrian {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0,0,0,0.1);
+}
+
+.aboutbrian:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/robot-bg.jpg') no-repeat right/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.aboutbrian .content {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+   
+    
+}
+
+.aboutbrian h2 {
+    color: #f8f8f8;
+    background:rgba(0,0,0,0.8);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
+ 
+    
+}
+
+.aboutbrian .circlecontainer {
+    background-color: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.aboutbrian .content .circle {
+    color: #f8f8f8;
+    padding: 0.5rem;
+    border: 5px solid #000000;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 2rem;
+    background: url('../../assets/brian-bg.jpg') no-repeat right/cover;
+   
+    
+}
+
+.aboutbrian .content .description {
+   
+    color: #f8f8f8;
+    padding: 0.5rem;
+    border-radius: 10px;
+    height: 10rem;
+    margin-top: 2rem;
+    background:rgba(0,0,0,0.5);
+    text-align: center;
+    
+}
+
+.aboutbrian .iconmain {
+    padding-top: .9rem;
+    padding-right: .5rem;
+    
+}
+
+.aboutbrian .iconbutton {
+    margin-left: 0.75rem;
+    padding-top: .2rem;
+    
+}
+
+.aboutbrian p {
+    color: #f8f8f8;
+    padding-top: 1rem;
+    background:rgba(0,0,0,0.5);
+    padding: 0.5rem;
+}
+
+.aboutbrian .blue {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:940px) {
+    .aboutbrian {
+        background: url('../../assets/robot-bg.jpg') no-repeat right right/cover;
+    }
+    
+    .aboutbrian .content {
+        position: absolute;
+        left: 0;
+        top: 5%;
+        width: 100%;
+        padding: 1rem;
+        margin-left: 0;
+        
+    }
+
+    .aboutbrian h2 {
+        color: #f8f8f8;
+        background:rgba(0,0,0,0.8);
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+     
+        
+    }
+
+    .aboutbrian .content .circle {
+        
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+
+    
+
+    .aboutbrian .content .description {
+   
+        height: 30rem;
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+        
+    }
+    
+}
